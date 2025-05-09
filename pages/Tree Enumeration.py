@@ -79,7 +79,7 @@ def plot_tree(tree, rooted=True):
 
 # --- Streamlit App ---
 
-st.title("Phylogenetic Tree Constructor")
+st.title("Tree Enumeration")
 st.write("Visualize rooted and unrooted phylogenetic trees and calculate the number of possible trees for a given number of nodes.")
 
 n_nodes = st.number_input("Number of taxa (nodes/leaves)", min_value=3, max_value=12, value=5, step=1)
