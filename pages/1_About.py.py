@@ -35,10 +35,12 @@ st.title("About")
 st.header("About the Author")
 col1, col2 = st.columns([1, 3])
 with col1:
-    img = Image.open(
-        
-        "C:\Users\Sanyukta Kapare\Desktop\sanyukta_image.jpeg")
-    st.image(img, width=150, caption="Sanyukta Rajendra Kapare")
+    st.image(
+    "https://media.licdn.com/dms/image/v2/D4E03AQF7X8Fe-qAEaw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715321265958?e=1752105600&v=beta&t=vyyodlziuY5S4VhgQ-vOQdKokBOnuTCN3jYh1VscquQ",
+    width=150,
+    caption="Sanyukta Rajendra Kapare"
+)
+
 with col2:
     st.markdown("""
     **Sanyukta Rajendra Kapare**  
